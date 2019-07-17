@@ -32,7 +32,7 @@ hi! link Repeat Statement
 hi! link lCursor Cursor
 
 " for miniBufExplore plugin
-:hi MBENormal  guibg=#202020 ctermbg=234 ctermfg=white
+:hi MBENormal  guibg=NONE ctermbg=234 ctermfg=white
 " :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 :hi MBEVisibleNormal  guibg=#ffff00 guifg=#ff0000 ctermbg=yellow ctermfg=red
 " :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red

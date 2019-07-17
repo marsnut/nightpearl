@@ -31,6 +31,12 @@ hi! link Macro PreProc
 hi! link Repeat Statement
 hi! link lCursor Cursor
 
+" for miniBufExplore plugin
+:hi MBENormal  guibg=#202020 ctermbg=234 ctermfg=white
+" :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
+:hi MBEVisibleNormal  guibg=#ffff00 guifg=#ff0000 ctermbg=yellow ctermfg=red
+" :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red
+
 if (has('termguicolors') && &termguicolors) || has('gui_running')
   let g:terminal_ansi_colors = ['#616c72', '#fd8e94', '#c7ecb0', '#ffe198',
         \ '#bdd5ff', '#e1bfff', '#b4dddd', '#ebeae9', '#616c72', '#fd8e94',
@@ -74,7 +80,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi VertSplit guifg=#a5a6a4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#616c72 guisp=NONE gui=italic cterm=italic
-  hi Search guifg=NONE guibg=#616c72 guisp=NONE gui=underline cterm=underline
+  hi Search guifg=#ffffff guibg=#0000ff guisp=NONE gui=underline cterm=underline
   hi IncSearch guifg=NONE guibg=#616c72 guisp=NONE gui=underline cterm=underline
   hi MatchParen guifg=NONE guibg=#0000ff guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
   hi NonText guifg=#a5a6a4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
@@ -221,12 +227,6 @@ if s:t_Co >= 256
   unlet s:t_Co s:italics
   finish
 endif
-
-" for miniBufExplore plugin
-:hi MBENormal  guibg=#202020 ctermbg=234 ctermfg=white
-" :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
-:hi MBEVisibleNormal  guibg=#ffff00 guifg=#ff0000 ctermbg=yellow ctermfg=red
-" :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red
 
 " Background: dark
 " Color: dark          #3c4855           ~                 Black

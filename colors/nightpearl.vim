@@ -1,4 +1,4 @@
-" Vim color file --- psc (night pearl color) "Lite version"
+" Vim color file --- night pearl color
 " Last Change:	10 July 2019
 " Author: vicky xiao
 " Version:	1.0

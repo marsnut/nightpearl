@@ -54,7 +54,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi CursorColumn guifg=NONE guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi CursorLine guifg=NONE guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi CursorLineNr guifg=#ebeae9 guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
-  hi LineNr guifg=#a5a6a4 guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
+  hi LineNr guifg=#d0d0d0 guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi SignColumn guifg=NONE guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi DiffAdd guifg=NONE guibg=#2d3a2c guisp=NONE gui=NONE cterm=NONE
   hi DiffChange guifg=NONE guibg=#303e56 guisp=NONE gui=NONE cterm=NONE

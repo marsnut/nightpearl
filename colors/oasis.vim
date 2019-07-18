@@ -19,6 +19,7 @@ if &background == 'light'
   hi  Constant      guifg=DeepPink
   hi  String        guifg=#339933        gui=Bold
   hi  Number        guifg=#339933        gui=Bold
+  hi  Special       guifg=#339933        gui=Bold
   hi  CursorLineNr  gui=NONE             guibg=#ffdfe6      guifg=Brown       cterm=NONE      ctermbg=NONE  ctermfg=208
   hi  DiffAdd       guibg=LightGreen     ctermbg=DarkGreen  ctermfg=White
   hi  DiffChange    guibg=Gray90         ctermbg=DarkCyan   ctermfg=White
@@ -64,6 +65,7 @@ else
   hi  Comment       guifg=LightBlue
   hi  String        guifg=LightBlue        gui=Bold
   hi  Number        guifg=LightBlue        gui=Bold
+  hi  Special       guifg=LightBlue        gui=Bold
   hi  PreProc       ctermfg=Magenta
   hi  StatusLine    gui=NONE             guibg=DarkGreen       guifg=White       cterm=NONE      ctermfg=White  ctermbg=DarkGreen
   hi  StatusLineNC  guifg=Gray

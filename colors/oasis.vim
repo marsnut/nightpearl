@@ -35,7 +35,7 @@ if &background == 'light'
   hi  PmenuSel      guibg=#6ac4ff        guifg=White
   hi  Pmenuthumb    guifg=#bed4f7
   hi  PreProc       guifg=DarkMagenta
-  hi  Search        guibg=LightGreen     guifg=DarKRed      gui=NONE
+  hi  Search        guibg=#5fff5f     guifg=red      gui=NONE
   hi  SignColor     guibg=Grey60
   hi  SignColumn    guibg=LightGrey      guifg=LightGrey
   hi  Statement     guifg=DarkRed        ctermfg=DarkRed
@@ -74,7 +74,7 @@ else
 endif
 
 " for miniBufExplore plugin
-:hi MBENormal  guibg=#339933 ctermbg=NONE ctermfg=white
+:hi MBENormal  guibg=NONE guifg=#339933 ctermbg=NONE ctermfg=white
 " :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 :hi MBEVisibleNormal  guibg=yellow guifg=red ctermbg=yellow ctermfg=red
 " :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red

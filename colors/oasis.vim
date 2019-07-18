@@ -78,7 +78,7 @@ else
 endif
 
 " for miniBufExplore plugin
-:hi MBENormal  guibg=NONE guifg=#339933 ctermbg=NONE ctermfg=white
+:hi MBENormal  guibg=NONE guifg=DeepPink ctermbg=NONE ctermfg=white
 " :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 :hi MBEVisibleNormal  guibg=yellow guifg=red ctermbg=yellow ctermfg=red
 " :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red

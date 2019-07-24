@@ -33,8 +33,8 @@ hi! link lCursor Cursor
 
 " for miniBufExplore plugin
 :hi MBENormal  guibg=NONE ctermbg=234 ctermfg=white
-" :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 :hi MBEVisibleNormal  guibg=#ffff00 guifg=#ff0000 ctermbg=yellow ctermfg=red
+" :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 " :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
@@ -80,8 +80,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi VertSplit guifg=#a5a6a4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi Visual guifg=NONE guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi VisualNOS guifg=NONE guibg=#616c72 guisp=NONE gui=italic cterm=italic
-  hi Search guifg=#ffffff guibg=#0000ff guisp=NONE gui=underline cterm=underline
-  hi IncSearch guifg=NONE guibg=#616c72 guisp=NONE gui=underline cterm=underline
+  hi Search guifg=#ffffff guibg=#0000ff guisp=NONE gui=NONE cterm=NONE
+  hi IncSearch guifg=NONE guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
   hi MatchParen guifg=NONE guibg=#0000ff guisp=NONE gui=bold ctermfg=NONE ctermbg=NONE cterm=bold
   hi NonText guifg=#a5a6a4 guibg=NONE guisp=NONE gui=NONE cterm=NONE
   hi StatusLine guifg=#ebeae9 guibg=#616c72 guisp=NONE gui=NONE cterm=NONE
@@ -176,8 +176,8 @@ if s:t_Co >= 256
   hi Visual ctermfg=NONE ctermbg=242 cterm=NONE
   hi VisualNOS ctermfg=NONE ctermbg=242 cterm=italic
   "hi Search ctermfg=NONE ctermbg=242 cterm=underline
-  hi Search ctermfg=white ctermbg=blue cterm=underline
-  hi IncSearch ctermfg=NONE ctermbg=242 cterm=underline
+  hi Search ctermfg=white ctermbg=blue cterm=NONE
+  hi IncSearch ctermfg=NONE ctermbg=242 cterm=NONE
   hi MatchParen ctermfg=NONE ctermbg=NONE cterm=bold
   hi NonText ctermfg=248 ctermbg=NONE cterm=NONE
   hi StatusLine ctermfg=255 ctermbg=242 cterm=NONE

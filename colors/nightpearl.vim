@@ -5,9 +5,13 @@
 
 hi clear
 
+set background=dark
+
 if exists("syntax_on")
   syntax reset
 endif
+
+let g:colors_name = 'nightpearl'
 
 let g:colors_name = expand("<sfile>:t:r")
 
@@ -166,8 +170,8 @@ endif
 
 " for miniBufExplore plugin
 :hi MBENormal  guibg=#202020 ctermbg=234 ctermfg=white
-" :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 :hi MBEVisibleNormal  guibg=yellow guifg=red ctermbg=yellow ctermfg=red
+" :hi MBEChanged guibg=darkblue ctermbg=darkblue ctermbg=red
 " :hi MBEVisibleChanged guibg=darkblue ctermbg=yellow ctermfg=red
 
 " COLOR LINKS DEFINE START
